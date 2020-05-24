@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1440" scroll="both">
+  <controller name="c1" pages="0,列表、按钮,1,文本,2,图片、装载器、进度条" selected="0"/>
+  <controller name="c2" alias="图标控制" pages="0,1,1,2,2,3" selected="0"/>
+  <displayList>
+    <list id="n5_rupe" name="list_test" xy="26,396" size="300,438" group="n52_f9dg" overflow="scroll" lineGap="5" defaultItem="ui://z0tx5vajrupe1" autoItemSize="false" align="center" autoClearItems="true" scrollItemToViewOnClick="false">
+      <relation target="" sidePair="height-height,center-center"/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n15_vpvx" name="btnTest" src="vpvx2" fileName="extension/按钮1.xml" xy="170,308" pivot="0.5,0.5" anchor="true" group="n52_f9dg">
+      <Button title="测试列表"/>
+    </component>
+    <component id="n40_f9dg" name="btnTop" src="vpvx2" fileName="extension/按钮1.xml" xy="419,442" pivot="0.5,0.5" anchor="true" group="n52_f9dg" scale="0.5,0.5">
+      <Button title="顶部"/>
+    </component>
+    <component id="n41_f9dg" name="btnBottom" src="vpvx2" fileName="extension/按钮1.xml" xy="555,442" pivot="0.5,0.5" anchor="true" group="n52_f9dg" scale="0.5,0.5">
+      <Button title="底部"/>
+    </component>
+    <component id="n42_f9dg" name="btnScrollEffect" src="f9dg5w" fileName="components/复选框.xml" pkg="zzf20f84" xy="416,470" size="178,42" group="n52_f9dg">
+      <Button title="播放滚动动画"/>
+    </component>
+    <group id="n52_f9dg" name="n52" xy="26,268" size="640,566" advanced="true">
+      <gearDisplay controller="c1" pages="0"/>
+    </group>
+    <image id="n59_f9dg" name="n59" src="rupe2h" fileName="images/基础组件/底.png" pkg="zzf20f84" xy="75,272" size="191,45" group="n53_f9dg">
+      <relation target="n16_rii5" sidePair="center-center,middle-middle"/>
+    </image>
+    <text id="n3_sza0" name="txtTest" xy="314,44" size="132,44" group="n53_f9dg" fontSize="32" color="#ffffff" text="文本测试"/>
+    <text id="n16_rii5" name="n16" xy="99,279" size="146,32" group="n53_f9dg" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="" input="true" prompt="请输入" maxLength="20"/>
+    <text id="n17_rii5" name="n17" xy="57,110" size="120,50" group="n53_f9dg" fontSize="22" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="普通文本">
+      <relation target="n21_rii5" sidePair="middle-middle,left-left"/>
+    </text>
+    <text id="n21_rii5" name="n21" xy="281,135" pivot="0.5,0.5" anchor="true" size="180,32" group="n53_f9dg" fontSize="22" color="#ffffff" text="普通文本自动大小"/>
+    <richtext id="n22_rii5" name="n22" xy="51,205" size="252,32" group="n53_f9dg" fontSize="22" color="#ffffff" align="center" autoSize="none" text="&lt;font color=#0000ff&gt;富&lt;/font&gt;&lt;font color=#ffff00&gt;文&lt;/font&gt;&lt;font color=#ff0000&gt;本&lt;/font&gt;"/>
+    <text id="n30_f9dg" name="n30" xy="347,365" size="123,28" group="n53_f9dg" font="ui://z0tx5vajf9dgg" fontSize="12" text="+113456"/>
+    <text id="n31_f9dg" name="n31" xy="51,347" size="264,64" group="n53_f9dg" font="ui://z0tx5vajf9dg14" fontSize="12" underline="true" text="暴1245678"/>
+    <image id="n32_f9dg" name="n32" src="f9dgh" fileName="images/font/战斗字体/0.png" xy="60,495" group="n53_f9dg"/>
+    <image id="n33_f9dg" name="n33" src="f9dgi" fileName="images/font/战斗字体/1.png" xy="90,495" group="n53_f9dg"/>
+    <image id="n35_f9dg" name="n35" src="f9dgk" fileName="images/font/战斗字体/3.png" xy="120,495" group="n53_f9dg"/>
+    <image id="n36_f9dg" name="n36" src="f9dgj" fileName="images/font/战斗字体/2.png" xy="150,495" group="n53_f9dg"/>
+    <group id="n53_f9dg" name="n53" xy="51,44" size="419,496" advanced="true">
+      <gearDisplay controller="c1" pages="1"/>
+    </group>
+    <component id="n61_f9dg" name="n61" src="f9dg19" fileName="ImageTestView.xml" xy="0,0">
+      <gearDisplay controller="c1" pages="2"/>
+    </component>
+    <component id="n47_f9dg" name="n47" src="f9dg5x" fileName="components/选中按钮.xml" pkg="zzf20f84" xy="51,1156" size="164,68">
+      <Button checked="true" title="列表" controller="c1" page="0"/>
+    </component>
+    <component id="n48_f9dg" name="n48" src="f9dg5x" fileName="components/选中按钮.xml" pkg="zzf20f84" xy="220,1157" size="164,68">
+      <Button title="文本" controller="c1" page="1"/>
+    </component>
+    <component id="n51_f9dg" name="n51" src="f9dg5x" fileName="components/选中按钮.xml" pkg="zzf20f84" xy="392,1156" size="164,68">
+      <Button title="图片" controller="c1" page="2"/>
+    </component>
+  </displayList>
+</component>

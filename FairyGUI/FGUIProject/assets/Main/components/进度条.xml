@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="8,9" extention="ProgressBar">
+  <displayList>
+    <image id="n1_f9dg" name="n1" src="f9dg16" fileName="images/进度条背景.png" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n0_f9dg" name="bar" src="f9dg17" fileName="images/进度条.png" xy="1,1" size="6,7"/>
+    <text id="n2_f9dg" name="title" xy="-1,-5" size="10,19" fontSize="12" autoSize="none" text=""/>
+  </displayList>
+  <ProgressBar/>
+</component>

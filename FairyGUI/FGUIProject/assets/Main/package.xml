@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="z0tx5vaj">
+  <resources>
+    <component id="wbvv0" name="Main.xml" path="/" exported="true"/>
+    <component id="rupe1" name="TestListItem.xml" path="/extension/" exported="true"/>
+    <component id="vpvx2" name="按钮1.xml" path="/extension/" exported="true"/>
+    <image id="vpvx3" name="充值按钮.png" path="/images/"/>
+    <image id="f9dg5" name="0.png" path="/images/font/绿色字体/"/>
+    <image id="f9dg6" name="1.png" path="/images/font/绿色字体/"/>
+    <image id="f9dg7" name="2.png" path="/images/font/绿色字体/"/>
+    <image id="f9dg8" name="3.png" path="/images/font/绿色字体/"/>
+    <image id="f9dg9" name="4.png" path="/images/font/绿色字体/"/>
+    <image id="f9dga" name="5.png" path="/images/font/绿色字体/"/>
+    <image id="f9dgb" name="6.png" path="/images/font/绿色字体/"/>
+    <image id="f9dgc" name="7.png" path="/images/font/绿色字体/"/>
+    <image id="f9dgd" name="8.png" path="/images/font/绿色字体/"/>
+    <image id="f9dge" name="9.png" path="/images/font/绿色字体/"/>
+    <image id="f9dgf" name="+.png" path="/images/font/绿色字体/"/>
+    <font id="f9dgg" name="绿色字体.fnt" path="/font/" exported="true"/>
+    <image id="f9dgh" name="0.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgi" name="1.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgj" name="2.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgk" name="3.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgl" name="4.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgm" name="5.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgn" name="6.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgo" name="7.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgp" name="8.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgq" name="9.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgr" name="暴.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgs" name="避.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgt" name="对.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgu" name="防.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgv" name="击.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgw" name="绝.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgx" name="命.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgy" name="闪.png" path="/images/font/战斗字体/"/>
+    <image id="f9dgz" name="威.png" path="/images/font/战斗字体/"/>
+    <image id="f9dg10" name="压.png" path="/images/font/战斗字体/"/>
+    <image id="f9dg11" name="一.png" path="/images/font/战斗字体/"/>
+    <image id="f9dg12" name="御.png" path="/images/font/战斗字体/"/>
+    <image id="f9dg13" name="追.png" path="/images/font/战斗字体/"/>
+    <font id="f9dg14" name="战斗字体.fnt" path="/font/" exported="true"/>
+    <component id="f9dg15" name="进度条.xml" path="/components/"/>
+    <image id="f9dg16" name="进度条背景.png" path="/images/" exported="true" scale="9grid" scale9grid="2,2,4,4"/>
+    <image id="f9dg17" name="进度条.png" path="/images/" exported="true" scale="9grid" scale9grid="1,1,1,2"/>
+    <component id="f9dg19" name="ImageTestView.xml" path="/" exported="true"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

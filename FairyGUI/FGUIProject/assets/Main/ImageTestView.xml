@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="720,1280">
+  <displayList>
+    <image id="n61_f9dg" name="n61" src="rupe1h" fileName="images/其他/符文经验.png" pkg="zzf20f84" xy="492,459"/>
+    <image id="n62_f9dg" name="imgProcess" src="vpvx3" fileName="images/充值按钮.png" xy="225,283" fillMethod="hz" fillAmount="82"/>
+    <component id="n63_f9dg" name="progressBar" src="f9dg15" fileName="components/进度条.xml" xy="265,173" size="200,9">
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <image id="n64_f9dg" name="n64" src="rupea" fileName="images/其他/rank1.png" pkg="zzf20f84" xy="173,454"/>
+    <image id="n65_f9dg" name="n65" src="rupe56" fileName="images/进度条资源/bg_11.png" pkg="zzf20f84" xy="222,219" size="294,17"/>
+    <image id="n66_f9dg" name="n66" src="rupe5h" fileName="images/进度条资源/progressBar_11.png" pkg="zzf20f84" xy="228,223" size="280,10" fillMethod="hz"/>
+    <image id="n67_f9dg" name="n67" src="rupeb" fileName="images/其他/rank2.png" pkg="zzf20f84" xy="279,457"/>
+    <image id="n68_f9dg" name="n68" src="rupec" fileName="images/其他/rank3.png" pkg="zzf20f84" xy="379,458"/>
+    <loader id="n69_f9dg" name="n69" xy="173,563" size="86,80" url="ui://zzf20f84rupea" autoSize="true"/>
+  </displayList>
+</component>
