@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="720,1440" scroll="both">
-  <controller name="c1" pages="0,列表、按钮,1,文本,2,图片、装载器、进度条" selected="0"/>
-  <controller name="c2" alias="图标控制" pages="0,1,1,2,2,3" selected="0"/>
+  <controller name="c1" pages="0,列表、按钮,1,文本,2,图片、装载器、进度条" selected="2"/>
   <displayList>
     <list id="n5_rupe" name="list_test" xy="26,396" size="300,438" group="n52_f9dg" overflow="scroll" lineGap="5" defaultItem="ui://z0tx5vajrupe1" autoItemSize="false" align="center" autoClearItems="true" scrollItemToViewOnClick="false">
       <relation target="" sidePair="height-height,center-center"/>
@@ -45,17 +44,17 @@
     <group id="n53_f9dg" name="n53" xy="51,44" size="419,496" advanced="true">
       <gearDisplay controller="c1" pages="1"/>
     </group>
-    <component id="n61_f9dg" name="n61" src="f9dg19" fileName="ImageTestView.xml" xy="0,0">
+    <component id="n61_f9dg" name="imgTest" src="f9dg19" fileName="ImageTestView.xml" xy="0,0">
       <gearDisplay controller="c1" pages="2"/>
     </component>
     <component id="n47_f9dg" name="n47" src="f9dg5x" fileName="components/选中按钮.xml" pkg="zzf20f84" xy="51,1156" size="164,68">
-      <Button checked="true" title="列表" controller="c1" page="0"/>
+      <Button title="列表" controller="c1" page="0"/>
     </component>
     <component id="n48_f9dg" name="n48" src="f9dg5x" fileName="components/选中按钮.xml" pkg="zzf20f84" xy="220,1157" size="164,68">
       <Button title="文本" controller="c1" page="1"/>
     </component>
     <component id="n51_f9dg" name="n51" src="f9dg5x" fileName="components/选中按钮.xml" pkg="zzf20f84" xy="392,1156" size="164,68">
-      <Button title="图片" controller="c1" page="2"/>
+      <Button checked="true" title="图片" controller="c1" page="2"/>
     </component>
   </displayList>
 </component>

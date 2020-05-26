@@ -5,15 +5,39 @@
 ---
 local view = fgui.extension_class(GComponent)
 function view:ctor()
-    print("图片测试")
-
+    view.c1 = self:GetController("c1")
     view.processBar = self:GetChild("progressBar")
     view.processBar.max = 100
     view.processBar.value = 0
     view.processBar:TweenValue(100,5)
 
-    view.imgProcess = self:GetChild("n66")
+    view.imgProcess = self:GetChild("redProgressBar")
     view.imgProcess.fillAmount = 0.5
+
+    print("图片测试",view,view.c1)
+
+    view.btnLeft = self:GetChild("btnLeft")
+    view.btnRight = self:GetChild("btnRight")
+    view.btnLeft.onClick:Add(function(evt)
+        print("btnLeft click",evt.sender)
+        view:ChangeImage(-1)
+    end)
+
+    view.btnRight.onClick:Add(view.onClick)
+end
+
+view.onClick = function(evt)
+    print("btnRight click",evt.sender)
+    view:ChangeImage(1)
+end
+
+
+function view:ChangeImage(value)
+    print("ChangeImage",view)
+    local index = view.c1.selectedIndex + value
+    index = math.max(0,index)
+    index = math.min(2,index)
+    view.c1:SetSelectedIndex(index)
 end
 
 ImageTestView = ImageTestView or view

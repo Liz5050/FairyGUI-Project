@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="720,1280">
+<component size="720,1280" bgColor="#0f1b19">
+  <controller name="c1" pages="0,第一,1,第二,2,第三" selected="0"/>
   <displayList>
     <image id="n61_f9dg" name="n61" src="rupe1h" fileName="images/其他/符文经验.png" pkg="zzf20f84" xy="492,459"/>
     <image id="n62_f9dg" name="imgProcess" src="vpvx3" fileName="images/充值按钮.png" xy="225,283" fillMethod="hz" fillAmount="82"/>
@@ -8,9 +9,18 @@
     </component>
     <image id="n64_f9dg" name="n64" src="rupea" fileName="images/其他/rank1.png" pkg="zzf20f84" xy="173,454"/>
     <image id="n65_f9dg" name="n65" src="rupe56" fileName="images/进度条资源/bg_11.png" pkg="zzf20f84" xy="222,219" size="294,17"/>
-    <image id="n66_f9dg" name="n66" src="rupe5h" fileName="images/进度条资源/progressBar_11.png" pkg="zzf20f84" xy="228,223" size="280,10" fillMethod="hz"/>
+    <image id="n66_f9dg" name="redProgressBar" src="rupe5h" fileName="images/进度条资源/progressBar_11.png" pkg="zzf20f84" xy="228,223" size="280,10" fillMethod="hz"/>
     <image id="n67_f9dg" name="n67" src="rupeb" fileName="images/其他/rank2.png" pkg="zzf20f84" xy="279,457"/>
     <image id="n68_f9dg" name="n68" src="rupec" fileName="images/其他/rank3.png" pkg="zzf20f84" xy="379,458"/>
-    <loader id="n69_f9dg" name="n69" xy="173,563" size="86,80" url="ui://zzf20f84rupea" autoSize="true"/>
+    <loader id="n69_f9dg" name="n69" xy="271,608" size="86,80" url="ui://zzf20f84rupea" autoSize="true">
+      <gearIcon controller="c1" pages="1,2" values="ui://zzf20f84rupeb|ui://zzf20f84rupec" default="ui://zzf20f84rupea"/>
+    </loader>
+    <component id="n70_z1gb" name="btnLeft" src="z1gb5y" fileName="components/箭头按钮.xml" pkg="zzf20f84" xy="181,692">
+      <relation target="n72_z1gb" sidePair="left-left,top-top"/>
+    </component>
+    <component id="n71_z1gb" name="btnRight" src="z1gb5y" fileName="components/箭头按钮.xml" pkg="zzf20f84" xy="390,692" scale="-1,1">
+      <relation target="n72_z1gb" sidePair="left-right,top-top"/>
+    </component>
+    <text id="n72_z1gb" name="n72" xy="240,702" pivot="0.5,0.5" size="148,34" font="Microsoft YaHei" fontSize="24" color="#efffff" align="center" text="点击改变图标"/>
   </displayList>
 </component>

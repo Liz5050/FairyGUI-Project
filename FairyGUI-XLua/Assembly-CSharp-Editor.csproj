@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0105B697-30B9-9618-490A-A3F3036AF8F5}</ProjectGuid>
+    <ProjectGuid>{84F48878-81E7-2B24-04ED-6EEC667DD252}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -89,19 +89,19 @@
     <None Include="Assets\XLua\Src\Editor\Template\LuaEnumWrapGCM.tpl.txt" />
     <None Include="Assets\XLua\Src\Editor\Template\PackUnpack.tpl.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/Program Files/Unity2018.4.13c1/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -338,19 +338,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>F:/Program Files/Unity2018.4.13c1/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -709,7 +709,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{598FDA91-F3DD-5525-C767-98E936F34084}</Project>
+      <Project>{E15766EC-CE2F-E8DC-B277-D2251C19FD9A}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

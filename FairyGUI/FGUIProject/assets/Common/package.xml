@@ -215,6 +215,7 @@
     <component id="rupe5v" name="按钮1.xml" path="/components/" exported="true"/>
     <component id="f9dg5w" name="复选框.xml" path="/components/" exported="true"/>
     <component id="f9dg5x" name="选中按钮.xml" path="/components/" exported="true"/>
+    <component id="z1gb5y" name="箭头按钮.xml" path="/components/" exported="true"/>
   </resources>
   <publish name=""/>
 </packageDescription>

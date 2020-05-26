@@ -35,7 +35,7 @@ function view:OnInit()
         print("列表滚动位置",view.list.list.scrollPane.posY)
     end)
 
-    --view.imgTest = ImageTestView.Extend(self.contentPane:GetChild("n61"))
+    --view.imgTest = ImageTestView.Extend(self.contentPane:GetChild("imgTest"))
 
     view.btnTop = self.contentPane:GetChild("btnTop")
     view.btnBottom = self.contentPane:GetChild("btnBottom")

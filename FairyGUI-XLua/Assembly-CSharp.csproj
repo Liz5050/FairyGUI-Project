@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{598FDA91-F3DD-5525-C767-98E936F34084}</ProjectGuid>
+    <ProjectGuid>{E15766EC-CE2F-E8DC-B277-D2251C19FD9A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -431,19 +431,19 @@
     <None Include="Assets\FairyGUI\Resources\Shaders\FairyGUI-BMFont.shader" />
     <None Include="Assets\XLua\Resources\tdr\tdr.lua.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>F:/Program Files/Unity2018.4.13c1/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -647,13 +647,13 @@
       <HintPath>F:/Program Files/Unity2018.4.13c1/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-Project/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>G:/work/Unity/Unity2019 Project/FairyGUI-Project/FairyGUI-XLua/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>F:/Program Files/Unity2018.4.13c1/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
